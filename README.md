@@ -2,9 +2,11 @@
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
+  <a href="https://www.myfitnesspal.com/">
+    <img alt="MyFitnessPal" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/63/MyFitnessPal_Logo.png/220px-MyFitnessPal_Logo.png" width="60" />
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  My Fitness Pal Dashboard
 </h1>
 
 ## 🚀 Quick start
