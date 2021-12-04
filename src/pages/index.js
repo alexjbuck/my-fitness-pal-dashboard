@@ -3,10 +3,19 @@ import Main from "../layouts/Main"
 import SiteMetadata from '../queries/SiteMetadata'
 
 
-const Index = () => {
+const Index = ({location}) => {
+
+  const url = location.href ? location.href : '';
   const { siteUrl } = SiteMetadata()
   return (
-    <Main>{siteUrl}</Main>
+    <Main>
+      <div>
+        {siteUrl}
+      </div>
+      <div>
+        {url}
+      </div>
+    </Main>
   )
 }
 
