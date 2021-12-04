@@ -6,7 +6,7 @@ const Main = ({children}) => {
     return (
         <div>
             <h1>Main</h1>
-            <p>{children}</p>
+            <div>{children}</div>
             <p>This is the main page</p>
             <Login></Login>
         </div>
