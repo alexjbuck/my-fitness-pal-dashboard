@@ -1,7 +1,9 @@
 //src/api/my-first-function.js
 
-export default function handler(req, res) {
+function Handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
   res.status(200).json({ message: 'A ok!' });
 }
+
+export default Handler
